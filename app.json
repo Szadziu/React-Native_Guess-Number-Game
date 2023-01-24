@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "guess_number_app",
-    "slug": "guess_number_app",
+    "name": "Guess My Number",
+    "slug": "RNCourse",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -24,10 +23,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.reactcourse.guessmynumber"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7fb65b1c-78d0-4700-b09c-0365b2db3d4e"
+      }
     }
   }
 }
